@@ -18,3 +18,4 @@ session_destroy();
 	</tr>
 	<?php  } ?>
 </table>
+<button type="button" onclick="location.href='output.php'" >back</button>
