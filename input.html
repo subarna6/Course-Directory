@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<title>INPUT PAGE</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style>
+	body {
+	background-image: url(schedule2.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	height: 50vh;
+}
+.input-class {
+	position: absolute;
+	width: 1140px;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.input2-class {
+	position: absolute;
+	width: 1140px;
+	top: 80%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+	</style>
+
+</head>
+<body>
+<h1 style="color:red; left: 35%; position: absolute; font-size: 70px; top: 21% ">SCHEDULE</h1>
+<form method = "post" action="inputphp.php">
+<div class="input-class">
+<input type="text" name="course-name" placeholder="course-name" style="border: 8px solid #0099e6; margin-right: 100px; margin-top: 18%; float: left;" >
+<input type="text" name="professor-name" placeholder="professor-name" style="border: 8px solid #0099e6; margin-left: 50 px; margin-right: 50px; margin-top: 18%">
+<input type="time" name="time" title="please enter time" placeholder="time" style="border: 8px solid #0099e6; margin-left: 50px; margin-right: 50px; margin-top: 18%;">
+<input type="text" name="day" placeholder = "day" style="border: 8px solid #0099e6; margin-right: 3px; margin-top: 18%; float: right;">
+</div>
+<div class="input2-class">
+<input type="submit"  name= "input-form" style="font-size:15pt; font-weight: 400px; font-family: verdana; color:white;background-color:limegreen;border:2px solid #336600;padding:35px; float: left;">
+<a href="mainpage.html"><button type="button" name="back" style="font-size:15pt; font-weight: 400px; font-family: verdana; color:white;background-color:limegreen;border:2px solid #336600;padding:35px; float: right;">Back</button></a>
+</div>
+</form>
+</div>
+</body>
+</html>
